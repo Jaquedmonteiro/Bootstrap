@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style> .tm-social {
+      width: 50px;
+      height: 50px;
+    } </style>
+    <title>COLORS</title>
+  </head>
+  <body class="bg-black">
+
+      <!--Inicio Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">🎨</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-primary" aria-current="page" href="#">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-success" href="#cores">Cores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="#teoria">Teoria</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-danger" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sistemas de Cores
+                </a>
+                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item text-danger" href="https://pt.wikipedia.org/wiki/RGB"target="_blank">RGB</a></li>
+                  <li><a class="dropdown-item text-success"target="_blank" href="https://pt.wikipedia.org/wiki/CMYK">CMYK</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-primary" href="https://www.pantone.com.br"target="_blank">Pantone</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-info" href="https://hexcolorcodes.org/?msclkid=11d335caa9e711ecb1c27b9a593bd0b5"target="_blank">Hex Color Code</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2 bg-dark text-light" type="search" placeholder="Pesquisar" aria-label="OK">
+              <button class="btn btn-outline-success" type="submit">OK</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!--Fim Navbar-->
+
+<!--Inicio Carossel-->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/img/img1.jpg" class="d-block w-100" alt="img1">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/img2.jpg" class="d-block w-100" alt="img2">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/img3.jpg" class="d-block w-100" alt="img3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
+<!--FIm Carossel-->
+
+<!--Inicio Jumbotron-->
+<div class="jumbotron jumbotron-fluid bg-black text-light">
+    <div class="container">
+      <h1 class="display-4 text-center" id="cores">Cores</h1>
+      <p class="lead text-center">É um conjunto de regras que combina criatividade e ciência.</p>
+    </div>
+  </div>
+<!--Fim Jumbotron-->
+
+<!--Cards-->
+<div class="container bg-black text-light"><div class="row row-cols-1 row-cols-md-3 g-4 bg-black">
+    <div class="col">
+      <div class="card text-dark">
+        <img src="./assets/img/amarelo.jpg" class="card-img-top" alt="Amarelo">
+        <div class="card-body">
+          <h5 class="card-title">Amarelo</h5>
+          <p class="card-text">É um dos mais antigos pigmentos da história da arte. Inicialmente, era produzido a partir da argila, e muito utilizado pelos povos paleolíticos, como mostram as figuras contidas nas paredes da caverna de Lascaux, na França.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card text-dark">
+        <img src="./assets/img/vermelho.jpg" class="card-img-top" alt="Vermelho">
+        <div class="card-body">
+          <h5 class="card-title">Vermelho</h5>
+          <p class="card-text">O ser humano conseguiu extrair os pigmentos vermelhos desde o Período Paleonlítico, há 35 mil anos. Assim, o vermelho é uma cor abundante e muito usada há milhares de anos. Por isso, foi uma das primeiras a ser batizada.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card text-dark">
+        <img src="./assets/img/azul.jpg" class="card-img-top" alt="Azul">
+        <div class="card-body">
+          <h5 class="card-title">Azul</h5>
+          <p class="card-text">No mundo islâmico, o azul era de importância secundária para o verde, que se acredita ser a cor favorita do profeta Maomé. Em certos momentos na Espanha moura e em outras partes do mundo islâmico, o azul era a cor usada pelos cristãos e judeus.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+        <div class="card text-dark">
+          <img src="./assets/img/verde.jpg" class="card-img-top" alt="Verde">
+          <div class="card-body">
+            <h5 class="card-title">Verde</h5>
+            <p class="card-text">História antiga No antigo Egito, o verde era o símbolo da regeneração e do renascimento e das colheitas possibilitadas pela inundação anual do Nilo. O verde é também a cor tradicional de segurança e permissão; uma luz verde significa ir em frente, um cartão verde permite residência permanente nos Estados Unidos.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-dark">
+          <img src="./assets/img/rosa.jpg" class="card-img-top" alt="Rosa">
+          <div class="card-body">
+            <h5 class="card-title">Rosa</h5>
+            <p class="card-text">Rosa é uma cor vermelha pálida que é nomeada após uma flor do mesmo nome. Foi usado pela primeira vez como um nome de cor no final do século XVII. De acordo com pesquisas na Europa e nos Estados Unidos, o rosa é a cor mais frequentemente associada ao charme, polidez, sensibilidade, ternura, doçura, infância.</p>
+          </div>
+        </div>
+      </div>
+    <div class="col">
+      <div class="card text-dark">
+        <img src="./assets/img/roxo.jpg" class="card-img-top" alt="Roxo">
+        <div class="card-body">
+          <h5 class="card-title">Roxo</h5>
+          <p class="card-text">O roxo é uma cor intermediária entre azul e vermelho. O roxo apareceu pela primeira vez na arte pré-histórica durante a era neolítica. Os artistas da caverna Pech Merle e outros sítios neolíticos em França usavam varas de manganês e pó de hematita para desenhar e pintar animais e os contornos de suas próprias mãos nas paredes de suas cavernas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Fim Cards-->
+
+  <!--Inicio Texto E Video-->
+<div class="row mt-5 mb-5" id="teoria">
+    <div class="col-md-6">
+        <h3 class="text-center text-danger">T<span class="text-warning">E</span><span class="text-success">O</span><span class="text-primary">R</span><span class="text-info">I</span><span class="text-light">A </span> <span class="text-warning">D</span><span class="text-success">A</span><span class="text-primary">S </span><span class="text-info">C</span><span class="text-danger">O</span><span class="text-primary">R</span><span class="text-info">E</span><span class="text-light">S</span></h3>
+        <p class="">São os estudos e experimentos relacionados com a associação entre a luz e a natureza das cores. Leonardo Da Vinci, Isaac Newton, Goethe e outros estudiosos inicialmente buscavam saber como acontecia o processo de formação das cores.</p>
+        <p>Com o passar do tempo a Teoria se tornou mais extensa e hoje compreende vários campos de observação a respeito das cores.</p>
+         <p>Os estudos incluem desde a compreensão sobre o que são as cores, como elas se formam, como acontece a interpretação da visão e do cérebro até os usos na prática e as melhores formas de aplicação.</p></div>
+
+        <div class="col-md-6">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/IWTAIUiLJvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+</div>
+</div>
+<!--Fim Texto E Video-->
+<!--Inicio Formulario-->
+<hr class="text-secondary">
+<h1 class="titulo text-center text-light">Qual sua <span class="text-danger">c</span><span class="text-info">o</span><span class="text-warning">r</span> favorita?</h1>
+    <div class="container mb-50">
+        <div>
+        <form class="formulario text-center text-light">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" onkeyup="validaNome()">
+        <div id="txtNome"></div><br>
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" onkeyup="validaEmail()">
+        <div id="txtEmail"></div>
+        <br>
+        <label for="assunto">Assunto:</label><br>
+        <textarea name="assunto" id="assunto" cols="60" rows="5" placeholder="Qual cor e por quê?" onkeyup="validaAssunto()"></textarea>
+        <div id="txtAssunto"></div><br>
+        <button class="button" onclick="enviar()">Enviar</button> </form></div>
+
+<!--Fim Formulario-->
+ <!--Início Rodapé-->
+ <hr class="text-secondary">
+ <footer>
+   <div class="row mb-3">
+     <div class="col-md-12 d-flex justify-content-center">
+         <a href="https://www.facebook.com/" target="_blank" class="p-3">
+           <img class="tm-social" src="assets/img/facebook.png" alt="Facebook">
+         </a>
+   
+         <a href="https://www.linkedin.com/" target="_blank" class="p-3">
+           <img class="tm-social" src="assets/img/linkedin.png" alt="Linkedin">
+         </a>
+   
+         <a href="https://www.instagram.com/" target="_blank" class="p-3">
+           <img class="tm-social" src="assets/img/instagram.png" alt="Intagram">
+         </a>
+     </div>
+   </div>
+
+   <div class="row">
+     <div class="col-md-12">
+       <p class="text-center text-secondary">
+         Todos os direitos reservados a Jaque Domingues ©
+       </p>
+     </div>
+   </div>
+
+   
+   
+ </footer>
+ <!--Fim Rodafé-->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+    <script src="/assets/script/script.js"></script>
+  </body>
+</html>
